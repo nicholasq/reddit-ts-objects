@@ -1,5 +1,9 @@
 // Types are taken from https://github.com/reddit-archive/reddit/wiki/JSON
 
+declare module 'reddit:types' {
+  export * from 'reddit';
+}
+
 declare module 'reddit' {
   interface Thing<T> {
     /**
