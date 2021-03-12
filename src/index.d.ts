@@ -1,6 +1,6 @@
 // Types are taken from https://github.com/reddit-archive/reddit/wiki/JSON
 
-declare module 'reddit-ts-objects' {
+declare module 'reddit' {
   interface Thing<T> {
     /**
      * this item's identifier, e.g. "8xwlg"
