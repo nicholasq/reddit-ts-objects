@@ -17,6 +17,7 @@
     "@types/node": "^14.11.2"
   },
   "types": "index",
+  "typeScriptVersion": "4.2.3",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nicholasq/reddit-ts-objects"
