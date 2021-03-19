@@ -1,5 +1,6 @@
 {
   "name": "reddit-ts-objects",
+  "main": "",
   "version": "1.0.0",
   "description": "Types for the Reddit API",
   "scripts": {
@@ -15,5 +16,9 @@
     "gts": "^3.1.0",
     "@types/node": "^14.11.2"
   },
-  "types": "index.d.ts"
+  "types": "index",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicholasq/reddit-ts-objects"
+  }
 }
