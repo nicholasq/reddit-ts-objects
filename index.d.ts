@@ -117,6 +117,8 @@ declare module 'reddit' {
     subreddit?: string; // 	subreddit of thing excluding the /r/ prefix. "pics"
     subreddit_id?: string; // 	the id of the subreddit in which the thing is located
     thumbnail?: string; //	full url to the thumbnail for this link; "self" if this is a self post; "image" if this is a link to an image but has no thumbnail; "default" if a thumbnail is not available
+    thumbnail_width?: number; //	full url to the thumbnail for this link; "self" if this is a self post; "image" if this is a link to an image but has no thumbnail; "default" if a thumbnail is not available
+    thumbnail_height?: number; //	full url to the thumbnail for this link; "self" if this is a self post; "image" if this is a link to an image but has no thumbnail; "default" if a thumbnail is not available
     title?: string; //	the title of the link. may contain newlines for some reason
     url?: string; //	the link of this post. the permalink if this is a self-post
     edited?: number; // 	Indicates if link has been edited. Will be the edit timestamp if the link has been edited and return false otherwise. https://github.com/reddit/reddit/issues/581
