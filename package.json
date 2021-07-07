@@ -21,5 +21,6 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nicholasq/reddit-ts-objects"
-  }
+  },
+  "files": ["index.d.ts"]
 }
